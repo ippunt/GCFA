@@ -1,0 +1,39 @@
+IDENTIFICATION AND SCOPING:
+
+1. How and when was the network breached? Which system is "Patient Zero"?
+
+2. How did the initial infection occur giving the attackers a foothold? What type of exploit was used?
+
+3. When and how did the attackers first laterally move to each system?
+
+4. What were the attacker's primary and secondary command and control backdoors?
+
+CONTAINMENT AND THREAT INTELLIGENCE GATHERING:
+
+5. How and when did the attackers obtain domain administrator credentials?
+
+6. What did the attackers look for on each system?
+
+7. Damage Assessment: what data was stolen?
+
+8. Damage Assessment: was email accessed or stolen?
+
+9. Was any evidence of anti-forensics activity discovered?
+
+10. Were the attackers able to access any cloud-based resources like cloud computing resources or cloud storage data?
+
+11. Threat Intelligence: catalog host-based and network indicators of compromise.
+
+REMEDIATION AND RECOVERY:
+
+12. What level of account compromise occurred? Is a full password reset required during remediation?
+
+13. Based on the attacker techniques and tools discovered during the incident, what are the recommended steps to remediate and recover from this incident?
+
+a. What systems need to be rebuilt?
+
+b. What IP addresses need to be blocked?
+
+c. What countermeasures should we deploy to slow or stop these attackers if they come back?
+
+d. What recommendations would you make to detect these intruders in our network again?
