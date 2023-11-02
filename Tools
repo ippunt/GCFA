@@ -6,4 +6,5 @@ Kansa:
     https://www.sans.org/white-papers/37192/
     https://github.com/davehull/Kansa
     Timeline Explorer will help you sort through Kansa data which is CSV. https://www.sans.org/tools/timeline-explorer/
-    -Analysis to generate analysis files. If you forget can be ran afterwards on the data. Run in the directory with the data. 
+    -Analysis to generate analysis files. If you forget can be ran afterwards on the data. Run in the directory with the data.
+         
