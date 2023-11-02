@@ -25,3 +25,4 @@ Switches:
 -Pushbin           required by scripts that employ third-part binaries. If this argument is provided and a script with binary dependancy is ran,kansa will copy the binary to the targets. .\modules\bin\"Where binaries go"
 -Verbose           Additional logging to terminal 
 -OutputPath        Where to dump output
+-analysis          Runs scripts within the Analysis.conf   Many of these scripts rely on LogParser. The scripts expect logparser.exe to be in the system path so it can find it. 
