@@ -7,3 +7,20 @@ Scripts mentioned:
 Get-LogparserStack.ps1
 can be used to perform frequency analysis against any delimited file or set of files, so long as the set, all has the same schema and the same header row across each file. Is interactive. Script prompts for field to run count on, and field to group by. Supp MultiGrouping. 
 .\Get-LogparserStack.ps1 -FIlePattern *SvcAll.csv -Delimiter "," -Direction asc -OUtfile Svc-All-Workstations-stack.csv.
+
+Modules are selected when ran from the modules.conf
+
+
+
+
+
+
+Example usage:
+.\Kansa.ps1 -TargetList .\Hostslist -TargetCount 10 -Pushbin- Verbose
+
+
+Switches:
+-TargetList        followed by hostfile one host per line. If you omit Kansa will query AD for All hosts. 
+-TargetCount 10    Limit the quantity of hosts for testing. 
+-Pushbin           required by scripts that employ third-part binaries. If this argument is provided and a script with binary dependancy is ran,kansa will copy the binary to the targets. 
+-Verbose           Additional logging to terminal 
