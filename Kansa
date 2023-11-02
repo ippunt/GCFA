@@ -5,5 +5,5 @@
 -Analysis to generate analysis files. If you forget can be ran afterwards on the data. Run in the directory with the data.
 Scripts mentioned:
 Get-LogparserStack.ps1
-can be used to perform frequency analysis against any delimited file or set of files, so long as the set, all has the same schema and the same header row across each file. Is interactive. Script prompts for field to run count on, and field to group by. 
+can be used to perform frequency analysis against any delimited file or set of files, so long as the set, all has the same schema and the same header row across each file. Is interactive. Script prompts for field to run count on, and field to group by. Supp MultiGrouping. 
 .\Get-LogparserStack.ps1 -FIlePattern *SvcAll.csv -Delimiter "," -Direction asc -OUtfile Svc-All-Workstations-stack.csv.
