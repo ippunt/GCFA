@@ -10,4 +10,6 @@ Kansa:
     https://github.com/davehull/Kansa
     Timeline Explorer will help you sort through Kansa data which is CSV. https://www.sans.org/tools/timeline-explorer/
     -Analysis to generate analysis files. If you forget can be ran afterwards on the data. Run in the directory with the data.
-         
+
+appcompatprocessor.py: loads shimcache and amcache into database
+https://medium.com/@stuckinvim/scrape-malware-off-of-the-face-of-your-enterprise-4686ec5d7e74
